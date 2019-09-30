@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   binderhub:
   - apiVersion: v1
-    created: "2019-09-30T15:23:01.402526-04:00"
+    created: "2019-09-30T15:33:30.288156-04:00"
     description: A helm chart to install Binder with HS specific updates to repo2docker
-    digest: 7dd9cf6f68282cbb04b82e9b755db26697b2b26e760fcbaac6d5986fddedab0e
+    digest: e143c3435c9afb5b221ac43364feec4ec3237455569d3d41d8b2f10757b0ff99
     name: binderhub
     urls:
-    - castronova.github.io/helm-charts/binderhub-1.0.0-093c182.tgz
+    - https://castronova.github.io/helm-charts/binderhub-1.0.0-093c182.tgz
     version: 1.0.0-093c182
   - apiVersion: v1
     created: "2019-09-30T13:44:05.036762-04:00"
@@ -34,4 +34,4 @@ entries:
     urls:
     - https://github.com/Castronova/helm-charts/cuahsibinderhub-0.2.0-093c182.tgz
     version: 0.2.0-093c182
-generated: "2019-09-30T15:23:01.400137-04:00"
+generated: "2019-09-30T15:33:30.285791-04:00"
