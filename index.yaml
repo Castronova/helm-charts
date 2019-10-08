@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   binderhub:
   - apiVersion: v1
+    created: "2019-10-08T13:03:22.949563-04:00"
+    description: A helm chart to install Binder
+    digest: 14b4b687fb3b13e83c3714e9383ab3e7895c2033a4a1fb29525e532014b92dcf
+    name: binderhub
+    urls:
+    - https://castronova.github.io/helm-charts/binderhub-0.0.6-57661ee.tgz
+    version: 0.0.6-57661ee
+  - apiVersion: v1
     created: "2019-10-08T12:59:08.495941-04:00"
     description: A helm chart to install Binder
     digest: a4ab4413380eec249d92872246e938c27664e8793e4b4c312f533e6565f503aa
@@ -49,4 +57,4 @@ entries:
     urls:
     - https://Castronova.github.io/helm-charts/binderhub-0.0.1-1d37ef2.tgz
     version: 0.0.1-1d37ef2
-generated: "2019-10-08T12:59:08.490022-04:00"
+generated: "2019-10-08T13:03:22.945989-04:00"
