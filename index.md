@@ -1,6 +1,6 @@
 <html>
 <body>
-
+{% assign all_charts = jupyterhub | concat: binderhub %}
 <table>
   <tr>
     <th>release</th>
@@ -19,6 +19,7 @@
     </tr>
   {% endfor %}
 </table>
+
 
 </body>
 </html>
