@@ -2,7 +2,19 @@ apiVersion: v1
 entries:
   binderhub:
   - apiVersion: v1
-    created: "2020-01-29T13:12:08.051463-05:00"
+    created: "2020-01-29T13:38:31.44253-05:00"
+    dependencies:
+    - name: jupyterhub
+      repository: https://jupyterhub.github.io/helm-chart
+      version: 0.9-2d435d6
+    description: A helm chart to install Binder
+    digest: 5f309f00294d2ff20f407c9122398951569f8538b60b4cbcc73680195eae4958
+    name: binderhub
+    urls:
+    - https://castronova.github.io/helm-charts/binderhub-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    created: "2020-01-29T13:38:31.429728-05:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -14,7 +26,7 @@ entries:
     - https://castronova.github.io/helm-charts/binderhub-0.0.2-314af95.tgz
     version: 0.0.2-314af95
   - apiVersion: v1
-    created: "2020-01-29T13:12:08.04349-05:00"
+    created: "2020-01-29T13:38:31.421291-05:00"
     dependencies:
     - name: jupyterhub
       repository: https://jupyterhub.github.io/helm-chart
@@ -25,4 +37,4 @@ entries:
     urls:
     - https://castronova.github.io/helm-charts/binderhub-0.0.1-57661ee.tgz
     version: 0.0.1-57661ee
-generated: "2020-01-29T13:12:08.028156-05:00"
+generated: "2020-01-29T13:38:31.412688-05:00"
